@@ -10,9 +10,9 @@ public class Penumpang {
 
     }
     public void tampildaftarpenumpang(){
-        System.out.println("NIK" + NIK);
-        System.out.println("Nama Depan" + namadepan);
-        System.out.println("Nama Belakang" + namabelakang);
+        System.out.println("NIK: " + NIK);
+        System.out.println("Nama Depan: " + namadepan);
+        System.out.println("Nama Belakang: " + namabelakang);
     }
 
 }

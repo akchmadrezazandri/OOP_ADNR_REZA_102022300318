@@ -34,12 +34,11 @@ public class Penerbangan {
         return hargatiket;
     }
     public void tampilDaftarPenerbangan(){
-        System.out.println("Nomor Penerbangan" + nomorpenerbangan );
-        System.out.println("Bandara Keberangkatan" + bandarakeberangkatan);
-        System.out.println("Bandara Keberangkatan" + bandarakeberangkatan);
-        System.out.println("Bandara Tujuan" + bandaratujuan);
-        System.out.println("Waktu Keberangkatan" + waktukeberangkatan);
-        System.out.println("waktu Kedatangan" + waktukedatangan);
-        System.out.println("Harga Tiket"  + hargatiket);
+        System.out.println("Nomor Penerbangan: "  + nomorpenerbangan );
+        System.out.println("Bandara Keberangkatan: "  + bandarakeberangkatan);
+        System.out.println("Bandara Tujuan: "  + bandaratujuan);
+        System.out.println("Waktu Keberangkatan: " + waktukeberangkatan);
+        System.out.println("waktu Kedatangan: " + waktukedatangan);
+        System.out.println("Harga Tiket: " + hargatiket);
     }
 }

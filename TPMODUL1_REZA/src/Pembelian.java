@@ -21,7 +21,7 @@ public class Pembelian {
             System.out.println("4. Exit");
             System.out.print("Silahkan pilih menu: ");
             int pilihan = scanner.nextInt();
-            scanner.nextLine();  // Membersihkan buffer
+            scanner.nextLine();  // Membersihkan buffer setelah nextInt()
 
             switch (pilihan) {
                 case 1:
@@ -51,6 +51,7 @@ public class Pembelian {
                     }
                     System.out.print("Pilih nomor penerbangan (1-" + daftarPenerbangan.size() + "): ");
                     int pilihanPenerbangan = scanner.nextInt() - 1;
+                    scanner.nextLine();  // Membersihkan buffer setelah nextInt()
                     if (pilihanPenerbangan >= 0 && pilihanPenerbangan < daftarPenerbangan.size()) {
                         penerbanganTerpilih = daftarPenerbangan.get(pilihanPenerbangan);
                         System.out.println("Pemesanan Tiket Berhasil Dilakukan, Cek Pesanan Tiket pada Menu (3)");
