@@ -3,7 +3,7 @@ public class BarangNonElektronik extends Barang {
     private String material;
 
     // Constructor BarangNonElektronik
-    public BarangNonElektronik(String material,String garansi,String nama,int jumlah,double harga){
+    public BarangNonElektronik(String nama,int jumlah,double harga,String material){
         super(nama, jumlah, harga);
         this.material = material;
     }
