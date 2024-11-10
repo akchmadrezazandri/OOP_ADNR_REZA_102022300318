@@ -17,7 +17,7 @@ public class Main {
         kucing.infoHewan();
 
         //Burung 
-        Burung burung = new Burung(" Jeff ", 3, " BiruMuda");
+        Burung burung = new Burung(" Jeff ", 3, " Biru Muda");
         burung.suara();
         burung.makan();
         burung.makan(" Jagung");
