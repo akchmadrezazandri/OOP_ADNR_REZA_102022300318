@@ -19,7 +19,7 @@ public class LoginController {
         String username = usernameField.getText();
         String password = passwordField.getText();
 
-        if (username.equals("admin") && password.equals("1234")) {
+        if (username.equals("reza") && password.equals("0902")) {
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("Inventory.fxml"));
                 Scene scene = new Scene(loader.load());
